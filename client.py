@@ -5,7 +5,6 @@ def get_data_from_server():
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-        # 直接访问字典，而不是迭代
         print("Received data from server:")
         print(f"Data: {data['data']}")
     else:
