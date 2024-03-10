@@ -2,7 +2,6 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-# 模拟数据
 data = [
     {"id": 1, "domain": "astronomy", "data": "Star data set"},
     {"id": 2, "domain": "biology", "data": "Genome sequence"},
